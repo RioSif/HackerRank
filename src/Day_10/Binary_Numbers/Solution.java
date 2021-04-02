@@ -16,8 +16,8 @@ public class Solution {
         String bin = "";
         int sum = 0;
         String aces = "";
-
         while (n != 0) {
+            bin += n % 2;
             if (n % 2 == 1) {
                 sum++;
             } else {
@@ -29,9 +29,8 @@ public class Solution {
         aces += sum;
 
         int max = 0;
-        int[] acessum = new int[aces.length()];
         for (int i = 0; i < aces.length() ; i++) {
-            if (aces.charAt(i) > max) {
+            if (Character.getNumericValue(aces.charAt(i)) > max) {
                 max = Character.getNumericValue(aces.charAt(i));
             }
         }
