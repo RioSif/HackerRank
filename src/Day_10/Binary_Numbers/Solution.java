@@ -24,6 +24,7 @@ public class Solution {
                 aces += sum;
                 sum = 0;
             }
+            System.out.println(n);
             n /= 2;
         }
         aces += sum;
