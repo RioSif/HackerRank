@@ -11,4 +11,5 @@ idea
 out
 gen
 _config.yml
+.gitignore
 
