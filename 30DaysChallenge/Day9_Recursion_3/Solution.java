@@ -1,4 +1,4 @@
-package Day_9.Recursion_3;
+package Day9_Recursion_3;
 
 import java.io.*;
 import java.math.*;

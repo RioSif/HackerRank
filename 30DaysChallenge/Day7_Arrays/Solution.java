@@ -1,4 +1,4 @@
-package Day_7.Arrays;
+package Day7_Arrays;
 
 import java.io.*;
 import java.math.*;

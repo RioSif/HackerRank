@@ -1,4 +1,4 @@
-package Day_6.Lets_Review;
+package Day6_Lets_Review;
 
 import java.io.*;
 import java.util.*;

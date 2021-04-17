@@ -1,3 +1,5 @@
+package Day10_Binary_Numbers;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;

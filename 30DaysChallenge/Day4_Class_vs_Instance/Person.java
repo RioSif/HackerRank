@@ -1,4 +1,4 @@
-package Day_4.Class_vs_Instance;
+package Day4_Class_vs_Instance;
 
 import java.util.Scanner;
 

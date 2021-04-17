@@ -1,4 +1,4 @@
-package Day_8.Dictionaries_and_Maps;
+package Day8_Dictionaries_and_Maps;
 
 //Complete this code or write your own from scratch
 import java.util.*;
