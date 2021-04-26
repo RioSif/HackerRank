@@ -17,8 +17,8 @@ class Solution{
         while(in.hasNext()){
             String s = in.next();
             // Write code here
-            System.out.println(phoneCatalog.get(s));
 
+            System.out.printf(!phoneCatalog.containsKey(s) ? "Not Found\n" : "%s=%s\n", s, phoneCatalog.get(s));
         }
         in.close();
     }
