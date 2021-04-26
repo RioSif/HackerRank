@@ -18,7 +18,7 @@ class Solution{
             String s = in.next();
             // Write code here
 
-            System.out.printf(!phoneCatalog.containsKey(s) ? "Not Found\n" : "%s=%s\n", s, phoneCatalog.get(s));
+            System.out.printf(!phoneCatalog.containsKey(s) ? "Not found\n" : "%s=%s\n", s, phoneCatalog.get(s));
         }
         in.close();
     }
